@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  display: flex;
+  height: 100vh;
+}
+
+.App > section {
+  padding-top: 100px;
 }
 
 .App-logo {

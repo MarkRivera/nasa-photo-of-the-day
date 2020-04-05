@@ -1,0 +1,10 @@
+.photo-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.nasa-photo {
+    max-width: 70%;
+}
