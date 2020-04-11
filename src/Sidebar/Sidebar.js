@@ -4,9 +4,9 @@ import './Sidebar.css';
 function Sidebar (props) {
     return (
         <section className="sidebar">
+            <h1 className="title">NASA's Photo of The Day</h1>
             <div className="photo-info">
-                <h2>{props.title}</h2>
-                <p>{props.desc}</p>
+                <p className="photo-description">{props.desc}</p>
             </div>
         </section>
     )

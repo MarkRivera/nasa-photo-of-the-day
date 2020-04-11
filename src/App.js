@@ -38,8 +38,8 @@ function App() {
     <main className="App">
       {
         <>
-          <Sidebar title={photoData.title} desc={photoData.desc} />
-          <Photo src={photoData.hd} alt={photoData.alt} />
+          <Sidebar desc={photoData.desc} />
+          <Photo src={photoData.hd} alt={photoData.alt} title={photoData.title}/>
         </>
       }
     </main>
